@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
 
-# ASCII Art for Cards
+
 ASCII_CARDS = {
     '2 of Hearts': """
      _______
@@ -107,7 +107,7 @@ ASCII_CARDS = {
     |       |
     |______A|
     """,
-    # Add cards for Diamonds
+    
     '2 of Diamonds': """
      _______
     |2      |
@@ -212,7 +212,8 @@ ASCII_CARDS = {
     |       |
     |______A|
     """,
-    # Add cards for Clubs
+    
+    
     '2 of Clubs': """
      _______
     |2      |
@@ -317,7 +318,8 @@ ASCII_CARDS = {
     |       |
     |______A|
     """,
-    # Add cards for Spades
+    
+    
     '2 of Spades': """
      _______
     |2      |
@@ -630,7 +632,7 @@ class BlackjackGUI:
         """Start the GUI loop."""
         self.root.mainloop()
 
-# Main program execution
+
 if __name__ == "__main__":
     root = tk.Tk()
     gui = BlackjackGUI(root)
