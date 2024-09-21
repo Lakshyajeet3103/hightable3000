@@ -3,7 +3,7 @@ import random
 
 # Class to handle Blackjack Game
 class BlackjackGame:
-    def __init__(self, num_decks=1, starting_balance=1000):
+    def __init__(self, num_decks=1, starting_balance=100000):
         self.num_decks = num_decks
         self.deck = self.create_deck()
         self.player_hand = []
